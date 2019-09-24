@@ -1,0 +1,21 @@
+interface Animal{ 
+          void shout();
+}
+class Cat implements Animal{
+     public void shout (){
+    System.out.println("ίχίχ");
+   }
+void sleep() {
+     System.out.println("Γ¨Λ―Ύυ");
+}
+}
+public class J3 {
+   public static void main (String[] args){
+   Cat cat=new Cat();
+   animalShout(cat);
+}
+public static void animalShout (Animal animal){
+Cat cat=(Cat) animal;
+cat.shout();
+cat.sleep();
+}}

@@ -1,3 +1,0 @@
-package users;
-
-public class User { private String cardId; private String cardPwd; private String userName; private String call; private int account; public String getCardId(){ return cardId; } public void setCardId(String cardId){ this.cardId = cardId; } public String getCardPwd(){ return cardPwd; } public void setCardPwd(String cardPwd){ this.cardPwd = cardPwd; } public String getuserName(){ return userName; } public void setuserName(String userName){ this.userName = userName; } public String getcall(){ return call; } public void setcall(String call){ this.call = call; } public String getaccount(){ return account; } public void setaccount(String account){ this.account = account; } }
